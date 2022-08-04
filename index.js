@@ -12,13 +12,15 @@ function divide(a, b) {
     return a/b;
 }
 function increment(n) {
-    return n++;
+    n++
+    return n;
 }
-increment(Math.floor(Math.random() * 1000));
+
 function decrement(n) {
-    return n--;
+    n--;
+    return n;
 }
-decrement(Math.floor(Math.random() * 1000));
+
 function makeInt(n) {
     return parseInt(n, 10);
 }
